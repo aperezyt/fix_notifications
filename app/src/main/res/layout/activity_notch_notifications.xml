@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotchNotifications">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/textViewInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_access_notifications"
+            android:textAlignment="center"
+            android:paddingBottom="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <Button
+            android:id="@+id/buttonAccessNotifications"
+            android:layout_below="@+id/textViewInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:text="@string/button_notification_settings"
+            android:onClick="pressButton"
+            />
+
+
+        <TextView
+            android:id="@+id/textViewInfoRestriction"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/buttonAccessNotifications"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingTop="30dp"
+            android:paddingBottom="5dp"
+            android:text="@string/info_restrictions"/>
+
+        <Button
+            android:id="@+id/buttonDetails"
+            android:layout_below="@id/textViewInfoRestriction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:text="@string/button_details"
+            android:onClick="pressButton"
+            />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

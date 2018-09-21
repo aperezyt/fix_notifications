@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fix Notch Notifications</string>
+    <string name="appwidget_text">FIX NOTIFICATIONS</string>
+    <string name="button_notification_settings">Notification settings</string>
+    <string name="button_details">App details</string>
+    <string name="info_access_notifications">You must grant permission to this app in order to access notifications</string>
+    <string name="info_restrictions">Remove the restrictions within the option called battery economizer in the settings of the application </string>
+</resources>

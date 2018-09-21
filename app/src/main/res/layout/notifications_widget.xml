@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal"
+    android:padding="@dimen/widget_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true">
+            <ImageView
+                android:id="@+id/imgaview_icon0"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:padding="2dp"
+                android:src="@drawable/ic_launcher_background"
+                android:visibility="visible"/>
+
+            <ImageView
+                android:id="@+id/imgaview_icon1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:padding="2dp"
+                android:src="@drawable/ic_launcher_background"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/imgaview_icon2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:padding="2dp"
+                android:src="@drawable/ic_launcher_background"
+                android:visibility="gone"/>
+
+
+            <ImageView
+                android:id="@+id/imgaview_icon3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:padding="2dp"
+                android:src="@drawable/ic_launcher_background"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/imgaview_icon4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:padding="2dp"
+                android:src="@drawable/ic_launcher_background"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/imgaview_icon5"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:padding="2dp"
+                android:src="@drawable/ic_launcher_background"
+                android:visibility="gone"/>
+        </LinearLayout>
+</RelativeLayout>
